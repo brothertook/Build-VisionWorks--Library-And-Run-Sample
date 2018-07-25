@@ -69,6 +69,8 @@ as when all samples are built from the top-level directory.
 Go to the samples directory:
 
     $ cd ~/VisionWorks-<ver>-Samples/sources/bin/[arch]/linux/release
+    Or
+    $ cd ~/VisionWorks-<ver>-Samples/bin/[arch]/linux/release
 
 Run each sample of interest by using the name of the sample. For example, to run `nvx_demo_feature_tracker`, execute:
 
@@ -77,7 +79,7 @@ Run each sample of interest by using the name of the sample. For example, to run
 ```
 # Step 4
 ```
-## Native Compilation of Sample Application ##
+## Native Compilation of Sample Application for visionworks-tracking ##
 
 Sources for samples are provided in the `libvisionworks-tracking-dev` package.
 After package installation, source code and make files are located at:
@@ -107,6 +109,8 @@ Where `<ver>` is the version of the VisionWorks Object Tracker sample.
 2. Navigate to the samples directory:
 
         $ cd ~/VisionWorks-Tracking-<ver>-Samples/sources/bin/<arch>/linux/release
+        Or
+        $ cd ~/VisionWorks-Tracking-<ver>-Samples/bin/<arch>/linux/release
 
     Where `<ver>` is the version of the VisionWorks Object Tracker sample and `arch` is
     platform architecture.

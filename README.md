@@ -120,3 +120,46 @@ Where `<ver>` is the version of the VisionWorks Object Tracker sample.
         $ ./nvx_sample_object_tracker
 
 ```
+# Step 5
+```
+## Native Compilation of Sample Application for visionworks-sfm ##
+
+Sources for samples are provided in the `libvisionworks-sfm-dev` package.
+After package installation, source code and make files are located at:
+
+    /usr/share/visionworks-sfm/sources
+
+The directory is write protected;
+copy its contents to a directory with write access, such as your home directory.
+Execute the following commands:
+
+    $ /usr/share/visionworks-sfm/sources/install-samples.sh ~/
+    $ cd ~/VisionWorks-Sfm-<ver>-Samples/
+    $ make -j4 # add dbg=1 to make debug build
+
+Where `<ver>` is the version of the VisionWorks SFM sample.
+
+## Running Samples ##
+
+**Applies to:** Jetson devices only.
+
+1. Start the X window manager:
+
+        $ export DISPLAY=:0
+        $ X -ac &
+        $ blackbox
+
+2. Navigate to the samples directory:
+
+        $ cd ~/VisionWorks-Sfm-<ver>-Samples/sources/bin/<arch>/linux/release
+        Or
+        $ cd ~/VisionWorks-Sfm-<ver>-Samples/bin/<arch>/linux/release
+
+    Where `<ver>` is the version of the VisionWorks SFM sample and `arch` is
+    platform architecture.
+
+3. Execute the following command:
+
+        $ ./nvx_sample_sfm
+
+```

@@ -1,5 +1,5 @@
-# Build-VisionWorks--Library-And-Run-Sample
-How to build VisionWorks library and run sample
+# VisionWorks--Library-Run-Sample
+
 ```
 https://developer.nvidia.com/embedded/visionworks
 ```
@@ -35,6 +35,7 @@ Installed location: /usr/share/visionworks/docs
 Description       : Documentation package for this release of VisionWorks.
 ________________________________________________________________________________
 
+If missing package then flush JetsonTx2 properly
 ```
 # Step 3
 ```

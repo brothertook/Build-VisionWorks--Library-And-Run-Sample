@@ -6,6 +6,7 @@ https://developer.nvidia.com/embedded/visionworks
 # Step 1
 
 Flush NVIDIA JetsonTx2 go to flowing link
+
 https://docs.nvidia.com/jetpack-l4t/index.html#jetpack/3.2.1/install.htm
 
 # Step 2

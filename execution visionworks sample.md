@@ -1,6 +1,6 @@
 
-Execution VisionWorks Sample
-
+# Execution VisionWorks Sample
+```
 $ cd VisionWorks-1.6-Samples/bin/aarch64/linux/release
 
 Video Playback Sample App
@@ -27,3 +27,4 @@ Executing the Video Stabilizer Demo
 
 Executing Motion Estimation Sample
 ./nvx_demo_motion_estimation --source="device:///nvcamera?index=0"
+```

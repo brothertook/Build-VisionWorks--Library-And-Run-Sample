@@ -36,6 +36,7 @@ Installed location: /usr/share/visionworks/docs
 Description       : Documentation package for this release of VisionWorks.
 ________________________________________________________________________________
 
+If missing package then flush Jetson Tx2 properly again
 ```
 # Step 3
 ```

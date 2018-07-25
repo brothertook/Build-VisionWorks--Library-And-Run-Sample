@@ -1,5 +1,5 @@
 
-# Execution VisionWorks Sample
+# Execution VisionWorks-1.6-Samples
 ```
 $ cd VisionWorks-1.6-Samples/bin/aarch64/linux/release
 

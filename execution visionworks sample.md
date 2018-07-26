@@ -1,5 +1,5 @@
 
-# Execution VisionWorks-1.6-Samples
+# Execution VisionWorks-1.6-Samples for JetsonTx2
 ```
 $ cd VisionWorks-1.6-Samples/bin/aarch64/linux/release
 

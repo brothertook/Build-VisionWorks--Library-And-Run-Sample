@@ -62,6 +62,9 @@ Executing the Stereo Matching Demo
 
 Executing the CUDA Layer Object Tracker Sample
 ./nvx_sample_object_tracker_nvxcu --source="device:///v4l2?index=0"
+video file soure
+./nvx_sample_object_tracker_nvxcu --source='/home/nybsys/VisionWorks-1.6-Samples/data/cars.mp4'
+
 
 Hough Transform Demo App
 ./nvx_demo_hough_transform --source="device:///v4l2?index=0"
